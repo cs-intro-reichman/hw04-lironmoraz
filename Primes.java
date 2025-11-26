@@ -8,7 +8,7 @@ public class Primes {
         int p = 2;
         while (p <= Math.sqrt(n)) {
 
-            for (int i = p + 1; i <= n + 1; i++) {
+            for (int i = p + 1; i < n + 1; i++) {
                 if (i % p == 0) {
                     isPrime[i] = false;
                 }
